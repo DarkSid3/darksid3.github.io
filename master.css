@@ -1,0 +1,167 @@
+body
+{
+	margin: 0;
+	padding: 0;
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #777777;
+	background-color: #EEEEEE;
+
+	overflow-y: scroll;
+}
+
+div#header
+{
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	padding-top: 1vh;
+	padding-bottom: 1vh;
+
+	margin: 0;
+	width: 100%;
+
+	font-size: 1.25em;
+}
+
+div#header table
+{
+	width: 100%;
+}
+
+td.header-button
+{
+	width: 25%;
+	text-align: center;
+	background-color: rgba(180, 180, 180, 0.5);
+}
+
+td.header-button:hover
+{
+	cursor: pointer;
+}
+
+td.header-menu
+{
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	vertical-align: top;
+
+	text-align: left;
+	font-size: .85em;
+	visibility: hidden;
+}
+
+td.header-menu:hover
+{
+	cursor: pointer;
+}
+
+td.header-menu div.header-menu-item
+{
+	background-color: #CCCCC5;
+	padding: .4em;
+	display: block;
+}
+
+td.header-menu div.header-menu-item:hover
+{
+	background-color: #CFCFC5;
+}
+
+td.header-menu div.header-menu-item:last-child
+{
+	border-radius: 0 0 .75em .75em;
+}
+
+img#logo
+{
+	height: 8vh;
+	padding: 0;
+	margin: 0;
+}
+
+div#content
+{
+	width: 75%;
+	margin: 0 auto;
+	margin-top: 20vh;
+}
+
+div#content-spread
+{
+	width: 100%;
+}
+
+div#content-spread img
+{
+	width: 100%;
+}
+
+div#content-header
+{
+	margin-top: .5em;
+	margin-bottom: .5em;
+	font-size: 1.5em;
+
+	color: #333333;
+	font-weight: heavy;
+}
+
+div#content-body
+{
+	text-align: justify;
+
+	font-size: 1em;
+	color: #666666;
+}
+
+div#footer
+{
+	font-size: .8em;
+	text-align: center;
+	padding-bottom: 1em;
+}
+
+table.content-table
+{
+	width: 100%;
+}
+
+table.content-table th
+{
+	text-align: center;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+table.content-table td
+{
+	text-align: left;
+	vertical-align: top;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+a:link, a:visited
+{
+	color: #333333;
+	font-weight: heavy;
+}
+
+a:hover, a:active
+{
+	color: #000000;
+	font-weight: heavy;
+}
+
+code
+{
+	color: #000000;
+}
